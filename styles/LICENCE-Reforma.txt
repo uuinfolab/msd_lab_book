@@ -1,0 +1,10 @@
+### Typography
+
+Reforma by PampaType, designed for Universidad Nacional de Córdoba.
+Font files are distributed under CC BY-ND 4.0 and retain their
+original copyright and license notices.
+
+https://pampatype.com/reforma
+https://creativecommons.org/licenses/by-nd/4.0/
+
+The fonts are excluded from this repository’s general license.

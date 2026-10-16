@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
   pre-render:
-    - python3 scripts/prepare-downloads.py
+    - python3 scripts/prepare_downloads.py
 
   render:
     - "*.qmd"
