@@ -1,0 +1,95 @@
+---
+title: "Getting started"
+description: "This page describes how to setup a computational environment for completing the labs."
+navbar: true
+sidebar: false
+toc: true
+---
+
+
+## Choose your tools
+
+We recommend **Python** for the labs. It is the language used in the provided
+notebooks and the one we can best help you with. You may use another language or
+tool if you prefer, but our examples and support will focus on Python.
+
+Each lab has a Jupyter notebook (`.ipynb`) that you can download. You can work
+on it locally on your computer or upload it to **Google Colab** and work in your
+browser.
+
+
+## Option 1: Work locally
+
+For local Python work, we recommend [uv](https://docs.astral.sh/uv/) for package
+and environment management. You can use another setup if you already have one
+you are comfortable with.
+
+Install uv using the [official installation
+instructions](https://docs.astral.sh/uv/getting-started/installation/). Then
+create a uv project directory for your lab work and start [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/jupyter):
+
+
+
+```bash
+uv init sdm_labs
+cd sdm_labs
+uv add jupyterlab
+uv run jupyter lab
+```
+
+Another good option for working with notebooks is [VS
+Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+
+
+```bash
+code .
+```
+
+Download the lab notebook into this folder and open it in JupyterLab or VS Code.
+In VS Code make sure to select the correct Jupyter kernel which by default will
+be located in the directory `$proj_dir/.venv`. Install any packages required by
+the individual lab into the same environment, for example:
+
+```bash
+uv add numpy pandas matplotlib
+```
+
+Those packages are examples; follow each lab's instructions for what you
+actually need. Keep any supplied data files in the locations expected by the
+notebook.
+
+
+## Option 2: Work in Google Colab
+
+[Google Colab](https://colab.research.google.com/) lets you work with Python
+notebooks without setting up a local Python environment. Additionally it gives
+you access to (limited) GPU resources, which can become relevant in the text and
+image analysis part of the course.
+
+1. Download the notebook for the lab.
+2. Open Colab, sign in, and use **File → Upload notebook** to open it.
+3. Install any additional packages and upload any data files required by the lab, following its instructions.
+4. Add your code and written answers directly in the notebook.
+5. Save your work and download the completed notebook using **File → Download → Download .ipynb**.
+
+Keep a saved copy of your work. Files uploaded to a Colab runtime are temporary;
+you may need to upload data and install additional packages again when starting
+a new session.
+
+## Present your answers in the notebook
+
+We expect you to present **both prose and code in the notebook**:
+
+- Use **Markdown cells** for explanations, reasoning, interpretations, and answers to written questions.
+- Use **code cells** for calculations, analysis, and visualizations.
+- Include the relevant outputs and figures so your reasoning is easy to follow.
+
+Aim for a notebook that reads as a coherent explanation of your work. Explain
+what you did, why you did it, and what the results mean.
+
+Before presenting or submitting your work, restart the kernel and run all cells
+in order. Check that the notebook works from a fresh session, then save it with
+its outputs included. Follow any additional presentation or submission
+instructions given for the lab.
+
+[Explore the labs](labs/index.html){.btn .btn-primary}

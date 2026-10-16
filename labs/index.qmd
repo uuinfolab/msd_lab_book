@@ -1,0 +1,29 @@
+---
+title: "Labs"
+page-layout: full
+description: ""
+sidebar: false
+toc: false
+---
+
+Start with the [setup guide](../getting-started.qmd), then work
+through the labs in order.
+
+## Introduction
+
+| Lab | Topic |
+|---|---|
+| [01 · Social Data](lab_01.ipynb) | Working with Social Data |
+
+## Social Network Analysis
+
+| Lab | Topic |
+|---|---|
+| [02 · Networks Part 1](lab_02.ipynb) | Working with Social Data | 
+| [03 · Networks Part 2](lab_03.ipynb) | Working with Social Data | 
+
+## Computational Text Analysis
+
+## Social Image Analysis
+
+## Research Design

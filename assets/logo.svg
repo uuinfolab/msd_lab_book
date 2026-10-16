@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Network logo</title>
+  <g fill="none" stroke="#35292f" stroke-width="0.6">
+    <path d="M100 28 L155 46 L174 102 L155 158 L100 176 L44 158 L26 102 L44 46 Z"/>
+    <path d="M26 102 L100 28 M44 158 L100 28 M44 158 L155 46 M100 176 L155 46"/>
+  </g>
+  <g fill="#cc0000">
+    <circle cx="100" cy="28" r="18.5"/>
+    <circle cx="155" cy="46" r="18.5"/>
+    <circle cx="174" cy="102" r="18.5"/>
+    <circle cx="155" cy="158" r="18.5"/>
+    <circle cx="100" cy="176" r="18.5"/>
+    <circle cx="44" cy="158" r="18.5"/>
+    <circle cx="26" cy="102" r="18.5"/>
+    <circle cx="44" cy="46" r="18.5"/>
+  </g>
+</svg>

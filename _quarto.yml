@@ -1,0 +1,71 @@
+project:
+  type: website
+  output-dir: _site
+
+  pre-render:
+    - python3 scripts/prepare-downloads.py
+
+  render:
+    - "*.qmd"
+    - "labs/**/*.qmd"
+    - "labs/**/*.ipynb"
+
+  resources:
+    - assets/**
+    - downloads/**
+    - styles/**/*.woff2
+
+website:
+  title: "SDM Lab Book"
+
+  navbar:
+    logo: assets/logo.svg
+    logo-alt: "SDM Lab Book"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Getting started
+        href: getting-started.qmd
+      - text: Labs
+        href: labs/index.qmd
+
+  sidebar:
+    - title: "Labs"
+      style: docked
+      collapse-level: 1
+      contents:
+        - href: labs/index.qmd
+          text: Overview
+
+        - section: "Introduction to Social Data Mining"
+          contents:
+            - href: labs/lab_01.ipynb
+              text: "01 · Social Data"
+
+        - section: "Social Networks"
+          contents:
+            - href: labs/lab_02.ipynb
+              text: "02 · Measures, Models and Processes"
+            - href: labs/lab_03.ipynb
+              text: "03 · Meso Scale Structure"
+
+  search:
+    location: navbar
+    type: overlay
+
+  bread-crumbs: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    page-layout: article
+    theme:
+      light: [cosmo, styles/cherry.scss, styles/common.scss]
+      dark: [cosmo, styles/plum.scss, styles/common.scss]
+    css: styles/fonts.css
+    toc: true
+    sidebar: true
+    toc-title: "On this page"
+    code-copy: true
+    highlight-style: github

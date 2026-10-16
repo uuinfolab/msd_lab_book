@@ -1,0 +1,198 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Reforma1969", system-ui, sans-serif;
+$headings-font-family: "Reforma2018", system-ui, sans-serif;
+$font-family-monospace: "JetBrains Mono", monospace;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+
+/* Typography */
+body {
+  font-weight: 500;
+}
+
+h1 {
+  letter-spacing: -0.015em;
+}
+
+strong, b {
+  font-family: "Reforma2018", system-ui, sans-serif;
+  font-weight: 700;
+}
+
+.navbar-brand,
+.nav-link,
+.sidebar-title {
+  font-family: "Reforma2018", system-ui, sans-serif;
+}
+
+/* Code and tabs */
+div.sourceCode {
+  border-radius: 12px;
+}
+
+pre code {
+  line-height: 1.5;
+}
+
+.panel-tabset > .nav-tabs .nav-link {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Homepage */
+body:has(.home-hero) #title-block-header {
+  display: none;
+}
+
+.home-hero {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 7rem) 1rem 3rem;
+  text-align: center;
+}
+
+.hero-logo {
+  display: block;
+  width: clamp(90px, 15vw, 150px);
+  height: auto;
+  margin: 0 auto 1.75rem;
+}
+
+.hero-eyebrow {
+  color: var(--bs-link-color);
+  font-family: var(--bs-font-monospace);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.home-hero .hero-title {
+  margin: 1rem 0;
+  border: 0;
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.2rem);
+  font-style: italic;
+}
+
+.hero-description {
+  max-width: 580px;
+  margin: 1.5rem auto 2rem;
+  color: var(--bs-secondary-color, var(--bs-body-color));
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+body.quarto-dark .navbar-logo {
+  content: url("/assets/logo-dark.svg");
+  background: transparent;
+}
+
+.logo-for-dark {
+  display: none;
+}
+
+body.quarto-dark .logo-for-light {
+  display: none;
+}
+
+body.quarto-dark .logo-for-dark {
+  display: block;
+  background: transparent;
+}
+
+/* Homepage buttons */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.hero-actions > p {
+  display: contents;
+}
+
+.hero-actions .btn {
+  padding: 0.85rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.hero-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
+}
+
+.hero-actions .btn:focus-visible {
+  outline: 3px solid var(--bs-link-color);
+  outline-offset: 4px;
+}
+
+/* Homepage feature cards */
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 800px;
+  margin: 1rem auto 4rem;
+  padding: 0 1rem;
+}
+
+.home-feature {
+  padding: 1.5rem;
+  border: 1.5px solid var(--bs-border-color);
+  border-radius: 16px;
+  background: transparent;
+}
+
+.home-feature h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.home-feature p {
+  margin-bottom: 0;
+  color: var(--bs-secondary-color, var(--bs-body-color));
+}
+
+/* Navigation */
+.navbar {
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.navbar-logo {
+  max-height: 36px;
+}
+
+.sidebar-item-text {
+  line-height: 1.5;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .home-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-actions .btn {
+    transition: none;
+  }
+
+  .hero-actions .btn:hover {
+    transform: none;
+  }
+}

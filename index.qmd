@@ -1,0 +1,55 @@
+---
+title: "SDM Lab Book"
+pagetitle: "Welcome"
+page-layout: full
+navbar: false
+sidebar: false
+toc: false
+page-navigation: false
+---
+
+::: {.home-hero}
+
+
+<div class="hero-brand">
+  <img src="assets/logo.svg"
+       class="hero-logo logo-for-light"
+       alt="SDM Lab Book logo">
+  <img src="assets/logo-dark.svg"
+       class="hero-logo logo-for-dark"
+       alt="SDM Lab Book logo">
+</div>
+
+<!---
+![](assets/logo.svg){.hero-logo}
+[LEARN · EXPERIMENT · UNDERSTAND]{.hero-eyebrow}
+--->
+
+# SDM Lab Book {.hero-title}
+
+::: {.hero-subtitle}
+Computational Notebooks for the Minining of Social Data Labs
+:::
+
+
+::: {.hero-actions}
+[Getting started](getting-started.qmd){.btn .btn-primary .btn-lg}
+[Explore the labs](labs/index.qmd){.btn .btn-outline-primary .btn-lg}
+:::
+
+:::
+
+::: {.home-features}
+::: {.home-feature}
+### Setup environment
+
+Prepare your environment and open your first notebook with the
+[getting started guide](getting-started.html).
+:::
+
+::: {.home-feature}
+### Learning by doing
+
+Follow the [labs](labs/index.html), code up your solution and answer the
+questions using `Python` and `Markdown`.
+:::

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Reforma1969";
+  src: url("Reforma1969/Reforma1969-Gris.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reforma2018";
+  src: url("Reforma2018/Reforma2018-Negra.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
