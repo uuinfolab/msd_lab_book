@@ -45,10 +45,21 @@ website:
         - section: "Social Networks"
           contents:
             - href: labs/lab_02.ipynb
-              text: "02 · Measures, Models and Processes"
-            - href: labs/lab_03.ipynb
-              text: "03 · Meso Scale Structure"
+              text: "02 · Micro-level"
+            - href: labs/lab_tmp.ipynb
+              text: "03 · Meso-level"
+            - href: labs/lab_tmp.ipynb
+              text: "04 · Macro-level"
 
+        - section: "Content"
+          contents:
+            - href: labs/lab_02.ipynb
+              text: "05 · Theory-driven"
+            - href: labs/lab_tmp.ipynb
+              text: "06 · Data-driven"
+            - href: labs/lab_tmp.ipynb
+              text: "07 · Visuals"
+              
   search:
     location: navbar
     type: overlay
