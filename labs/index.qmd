@@ -19,11 +19,14 @@ through the labs in order.
 
 | Lab | Topic |
 |---|---|
-| [02 · Networks Part 1](lab_02.ipynb) | Working with Social Data | 
-| [03 · Networks Part 2](lab_03.ipynb) | Working with Social Data | 
+| [02 · Networks Part 1](lab_02.ipynb) | Basic concepts and micro-level analysis |
+| [03 · Networks Part 2](lab_tmp.ipynb) | Meso-level analysis |
+| [04 · Networks Part 3](lab_tmp.ipynb) | Macro-level analysis |
 
-## Computational Text Analysis
+## Content analysis
+| Lab | Topic |
+|---|---|
+| [05 · Content Part 1](lab_tmp.ipynb) | Theory-driven text analysis |
+| [06 · Content Part 2](lab_tmp.ipynb) | Data-driven text analysis |
+| [07 · Content Part 3](lab_tmp.ipynb) | Social image analysis |
 
-## Social Image Analysis
-
-## Research Design
