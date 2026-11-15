@@ -46,14 +46,14 @@ website:
           contents:
             - href: labs/lab_02.ipynb
               text: "02 · Micro-level"
-            - href: labs/lab_tmp.ipynb
+            - href: labs/lab_03.ipynb
               text: "03 · Meso-level"
             - href: labs/lab_tmp.ipynb
               text: "04 · Macro-level"
 
         - section: "Content"
           contents:
-            - href: labs/lab_02.ipynb
+            - href: labs/lab_tmp.ipynb
               text: "05 · Theory-driven"
             - href: labs/lab_tmp.ipynb
               text: "06 · Data-driven"
