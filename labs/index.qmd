@@ -20,7 +20,7 @@ through the labs in order.
 | Lab | Topic |
 |---|---|
 | [02 · Networks Part 1](lab_02.ipynb) | Basic concepts and micro-level analysis |
-| [03 · Networks Part 2](lab_tmp.ipynb) | Meso-level analysis |
+| [03 · Networks Part 2](lab_03.ipynb) | Meso-level analysis |
 | [04 · Networks Part 3](lab_tmp.ipynb) | Macro-level analysis |
 
 ## Content analysis
